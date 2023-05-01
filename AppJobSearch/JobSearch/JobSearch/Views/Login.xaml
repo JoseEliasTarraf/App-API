@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White"
+             x:Class="JobSearch.Views.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="JobSearch" TextColor="#623CEA" FontSize="25" Padding="20" FontFamily="Montserrat-Bold"/>
+            <BoxView Color="#D7CCFF" HeightRequest="2" Margin="20,0"/>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="20,178,20,239">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Entry Placeholder="E-mail"  TextColor="Black" BackgroundColor="#F1F3F6" PlaceholderColor="#B3BDC8" Grid.Row="0" Grid.ColumnSpan="2" Margin="4"/>
+                    <Entry Placeholder="Senha" IsPassword="True" TextColor="Black" Background="#F1F3F6" PlaceholderColor="#B3BDC8"  Grid.Row="1" Grid.ColumnSpan="2" Margin="4"/>
+                    <Button Text="Acessar" Grid.Row="2" Clicked="GoStart" FontFamily="MontserratRegular" BackgroundColor="#623CEA" CornerRadius="10" Margin="4"/>
+                    <Button Text="Cadastrar" Clicked="Register" Grid.Row="2" FontFamily="MontserratRegular" Grid.Column="1" BackgroundColor="#623CEA" CornerRadius="10" Margin="4"/>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

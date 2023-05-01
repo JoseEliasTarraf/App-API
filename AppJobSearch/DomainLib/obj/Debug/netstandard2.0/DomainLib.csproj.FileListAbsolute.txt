@@ -1,0 +1,11 @@
+C:\Dev\AppJobSearch\DomainLib\bin\Debug\netstandard2.0\DomainLib.deps.json
+C:\Dev\AppJobSearch\DomainLib\bin\Debug\netstandard2.0\DomainLib.dll
+C:\Dev\AppJobSearch\DomainLib\bin\Debug\netstandard2.0\DomainLib.pdb
+C:\Dev\AppJobSearch\DomainLib\obj\Debug\netstandard2.0\DomainLib.csproj.AssemblyReference.cache
+C:\Dev\AppJobSearch\DomainLib\obj\Debug\netstandard2.0\DomainLib.AssemblyInfoInputs.cache
+C:\Dev\AppJobSearch\DomainLib\obj\Debug\netstandard2.0\DomainLib.AssemblyInfo.cs
+C:\Dev\AppJobSearch\DomainLib\obj\Debug\netstandard2.0\DomainLib.csproj.CoreCompileInputs.cache
+C:\Dev\AppJobSearch\DomainLib\obj\Debug\netstandard2.0\DomainLib.dll
+C:\Dev\AppJobSearch\DomainLib\obj\Debug\netstandard2.0\DomainLib.pdb
+C:\Dev\AppJobSearch\DomainLib\obj\Debug\netstandard2.0\DomainLib.Utility.Lenguage.Message.resources
+C:\Dev\AppJobSearch\DomainLib\obj\Debug\netstandard2.0\DomainLib.csproj.GenerateResource.cache

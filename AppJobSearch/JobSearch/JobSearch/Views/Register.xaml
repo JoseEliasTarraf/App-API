@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White"
+             x:Class="JobSearch.Views.Register">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="10">
+                <Button Text="&#60;" BackgroundColor="Transparent" Clicked="GoBack" TextColor="#623CEA"  FontSize="45" Scale="1"/>
+                <Label Text="JobSearch" TextColor="#623CEA" FontSize="25" VerticalOptions="Center" TranslationY="4" FontFamily="Montserrat-Bold"/>
+            </StackLayout>
+            
+            <BoxView Color="#D7CCFF" HeightRequest="2" Margin="20,0"/>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="20,150,20,150">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Entry Placeholder="Nome" TextColor="Black" BackgroundColor="#F1F3F6" PlaceholderColor="#B3BDC8" Grid.Row="0" Grid.ColumnSpan="2" Margin="4"/>
+                    <Entry Placeholder="E-mail" TextColor="Black" Background="#F1F3F6" PlaceholderColor="#B3BDC8"  Grid.Row="1" Grid.ColumnSpan="2" Margin="4"/>
+                    <Entry Placeholder="Senha" IsPassword="True" TextColor="Black" BackgroundColor="#F1F3F6" PlaceholderColor="#B3BDC8" Grid.Row="2" Grid.ColumnSpan="2" Margin="4"/>
+                    <Button Text="Salvar" Grid.Row="3" FontFamily="MontserratRegular" BackgroundColor="#623CEA" CornerRadius="10" Margin="4"/>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

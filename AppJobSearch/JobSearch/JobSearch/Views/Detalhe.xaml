@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="JobSearch.Views.Detalhe">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="JobSearch" TextColor="#623CEA" FontSize="25" Padding="20" FontFamily="Montserrat-Bold"/>
+            <BoxView Color="#D7CCFF" HeightRequest="2" Margin="20,0"/>
+            <StackLayout  Padding="20,0,15,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Digita Ocean" Margin="4" FontFamily="MontserratBold" TextColor="LightGray"/>
+                    <Label Text="Back-End Developer" Margin="4" Grid.Row="1" FontFamily="MontserratBold" TextColor="LightGray"/>
+                    <Label Text="Pub. 08/02/2020" Grid.Column="1" Margin="4" FontFamily="MontserratBold" HorizontalOptions="End" TextColor="LightGray"/>
+                    <Label Text="id.23145" Margin="4" Grid.Column="1" Grid.Row="1" HorizontalOptions="End" FontFamily="MontserratBold" TextColor="LightGray"/>
+                </Grid>
+                <Label Text="São Paulo,SP" Margin="4" FontFamily="MontserratBold" TextColor="LightGray"/>
+                <Label Margin="4">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="7.000-11.000 " FontFamily="MontserratRegular" TextColor="#623CEA"/>
+                            <Span Text="BRL" TextColor="LightGray"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label Text="CLT" Margin="4" TextColor="Black"/>
+                <Label Text="Tags" Margin="4" TextColor="Black"/>
+                <Label Text="Interessados enviar e-mail para:" Margin="4" TextColor="Black"/>
+                <Label Text="job@digitalocen.com.br" Margin="4,0,0,0" TextColor="LightGray"/>
+                <BoxView Color="#F3F5F7" HeightRequest="2" Margin="0"/>
+                <ScrollView>
+                    <StackLayout>
+                        <Label Text="Descrição da Empresa" TextColor="#623CEA"/>
+                        <Label Text="A DigitalOcean, Inc. é uma provedora americana de infraestrutura em nuvem com sede na cidade de Nova York e data centers em todo o mundo. A DigitalOcean fornece aos desenvolvedores serviços em nuvem que ajudam a implantar e dimensionar aplicativos executados simultaneamente em vários computadores." TextColor="#4D5C69"/>
+                        <Label Text="Descrição do Trabalho" TextColor="#623CEA"/>
+                        <Label Text="Implementar novas tecnologias de gerenciamento de servidores, fazer integração com ferramentas de VM." TextColor="#4D5C69"/>
+                        <Label Text="Benefícios" TextColor="#623CEA"/>
+                        <Label Text="Vale Transporte,Vale Alimentação" TextColor="#4D5C69"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ruT6bra9/irIzTMOTJWqZs4oireC+z2XrMX5N+DIF4MbvT/RMiw5fF1MtzAQO58URmRzoRrZwZ+A/5yOJxY6g==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\AppJobSearch\\DomainLib\\DomainLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\neto_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\neto_\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

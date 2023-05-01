@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\neto_\OneDrive\Área de Trabalho\XamarinForms2020-master\XamarinForms2020-master\Material\Seção 07 - Jobsearch\01.Icones e Logos\App - Icone\Icone.png</Source>
+    <SmallTileSource>C:\Users\neto_\OneDrive\Área de Trabalho\XamarinForms2020-master\XamarinForms2020-master\Material\Seção 07 - Jobsearch\01.Icones e Logos\App - Icone\Icone.png</SmallTileSource>
+    <MediumTileSource>C:\Users\neto_\OneDrive\Área de Trabalho\XamarinForms2020-master\XamarinForms2020-master\Material\Seção 07 - Jobsearch\01.Icones e Logos\App - Icone\Icone.png</MediumTileSource>
+    <WideTileSource>C:\Users\neto_\OneDrive\Área de Trabalho\XamarinForms2020-master\XamarinForms2020-master\Material\Seção 07 - Jobsearch\01.Icones e Logos\App - Icone\Icone.png</WideTileSource>
+    <LargeTileSource>C:\Users\neto_\OneDrive\Área de Trabalho\XamarinForms2020-master\XamarinForms2020-master\Material\Seção 07 - Jobsearch\01.Icones e Logos\App - Icone\Icone.png</LargeTileSource>
+    <AppIconSource>C:\Users\neto_\OneDrive\Área de Trabalho\XamarinForms2020-master\XamarinForms2020-master\Material\Seção 07 - Jobsearch\01.Icones e Logos\App - Icone\Icone.png</AppIconSource>
+    <SplashScreenSource>C:\Users\neto_\OneDrive\Área de Trabalho\XamarinForms2020-master\XamarinForms2020-master\Material\Seção 07 - Jobsearch\01.Icones e Logos\App - Icone\Icone.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\neto_\OneDrive\Área de Trabalho\XamarinForms2020-master\XamarinForms2020-master\Material\Seção 07 - Jobsearch\01.Icones e Logos\App - Icone\Icone.png</PackageLogoSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>false</UseEmulator>
+  </PropertyGroup>
+</Project>
