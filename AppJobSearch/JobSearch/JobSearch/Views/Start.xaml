@@ -15,7 +15,7 @@
                 </Grid.ColumnDefinitions>
                 <Label Text="JobSearch" TextColor="#623CEA" FontSize="25" Padding="20" FontFamily="Montserrat-Bold"/>
                 <Button ImageSource="logout" VerticalOptions="Center" HeightRequest="50" BackgroundColor="#623CEA" TranslationY="3" CornerRadius="10" TranslationX="-20" Grid.Column="1"/>
-                <Button Text="+Add Job" BackgroundColor="#623CEA" VerticalOptions="Center" Grid.ColumnSpan="2"  TranslationY="3" CornerRadius="10" TranslationX="-20" Grid.Column="2"/>
+                <Button Text="+Add Job" Clicked="AddJobs" BackgroundColor="#623CEA" VerticalOptions="Center" Grid.ColumnSpan="2"  TranslationY="3" CornerRadius="10" TranslationX="-20" Grid.Column="2"/>
             </Grid>
             <BoxView Color="#D7CCFF" HeightRequest="2" Margin="20,0"/>
             <StackLayout HorizontalOptions="Center" Padding="20,0,20,0" Spacing="20">
@@ -28,6 +28,7 @@
                         <RowDefinition/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
+
                     <Entry Placeholder="Pesquisar" HeightRequest="55" TextColor="Black" BackgroundColor="#F1F3F6" PlaceholderColor="#B3BDC8" Grid.Row="0" Grid.ColumnSpan="2" Margin="4"/>
                     <Entry Placeholder="Cidade/Estado" TextTransform="Uppercase" HeightRequest="55" TextColor="Black" Background="#F1F3F6" PlaceholderColor="#B3BDC8"  Grid.Row="1" Margin="4"/>
                     <Button Text="Pesquisar" BackgroundColor="#623CEA" CornerRadius="5" Grid.Column="1" Grid.Row="1"/>

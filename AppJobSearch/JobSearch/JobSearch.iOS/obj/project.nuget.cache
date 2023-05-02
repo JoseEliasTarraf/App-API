@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qamnQHtRURvEFdy3Osdrx7bhHykxg7xpSZVLg7HdUACDzdjJmczwnSkS0wMQpHV15+Z6L3dxfV2CX89RCzMbCw==",
+  "dgSpecHash": "egNPeVZnCPSm3uAG31Vx150anS5XtLVI8zZzoITgkS29R/qv0L5vGSObVOL3wp03ojQT3SNT1BQSVHstFTuarw==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppJobSearch\\JobSearch\\JobSearch.iOS\\JobSearch.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\neto_\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
+    "C:\\Users\\neto_\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\neto_\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\neto_\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\neto_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",

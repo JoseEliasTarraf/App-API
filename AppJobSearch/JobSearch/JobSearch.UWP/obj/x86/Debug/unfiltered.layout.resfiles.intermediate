@@ -51,5 +51,15 @@ Assets\Wide310x150Logo.scale-400.png
 App.xbf
 JobSearch.UWP.xr.xml
 MainPage.xbf
+Images\back.scale-100.png
+Images\back.scale-200.png
+Images\logout.scale-100.png
+Images\logout.scale-200.png
+Images\ok.scale-100.png
+Images\ok.scale-200.png
+Images\pin.scale-100.png
+Images\pin.scale-200.png
+Images\search.scale-100.png
+Images\search.scale-200.png
 Properties\Default.rd.xml
 WinMetadata\Windows.winmd

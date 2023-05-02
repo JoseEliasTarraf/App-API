@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="false"
+             x:Class="JobSearch.Views.AddJob">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="10">
+                <Button Text="&#60;" BackgroundColor="Transparent" Clicked="BackStart" TextColor="#623CEA"  FontSize="45" Scale="1"/>
+                <Label Text="JobSearch" TextColor="#623CEA" FontSize="25" VerticalOptions="Center" TranslationY="4" TranslationX="-20" FontFamily="Montserrat-Bold"/>
+                <Button ImageSource="ok" BackgroundColor="Transparent" TranslationY="5"/>
+            </StackLayout>
+            <BoxView Color="#D7CCFF" HeightRequest="2" Margin="20,0"/>
+            <ScrollView>
+                <StackLayout Padding="20" Spacing="10">
+                    <Entry Placeholder="Empresa" PlaceholderColor="LightGray" TextColor="Black" BackgroundColor="#F1F3F6"/>
+                    <Entry Placeholder="Cargo" PlaceholderColor="LightGray" TextColor="Black" BackgroundColor="#F1F3F6"/>
+                    <Entry Placeholder="Cidade/UF" PlaceholderColor="LightGray" TextColor="Black" BackgroundColor="#F1F3F6"/>
+                    <Entry Placeholder="Salário" PlaceholderColor="LightGray" TextColor="Black" BackgroundColor="#F1F3F6"/>
+                    <Entry Placeholder="Regime" PlaceholderColor="LightGray" TextColor="Black" BackgroundColor="#F1F3F6"/>
+                    <Entry Placeholder="Tecnlogia/Ferramentas" PlaceholderColor="LightGray" TextColor="Black" BackgroundColor="#F1F3F6"/>
+                    <Editor Placeholder="Descrição Da Empresa" AutoSize="TextChanges" TextColor="Black" PlaceholderColor="LightGray" BackgroundColor="#F1F3F6"/>
+                    <Editor Placeholder="Descrição Do Trabalho" AutoSize="TextChanges" TextColor="Black" PlaceholderColor="LightGray" BackgroundColor="#F1F3F6"/>
+                    <Entry Placeholder="Benefícios" PlaceholderColor="LightGray" TextColor="Black" BackgroundColor="#F1F3F6"/>
+                    <Entry Placeholder="E-mail Contato" PlaceholderColor="LightGray" TextColor="Black" BackgroundColor="#F1F3F6"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

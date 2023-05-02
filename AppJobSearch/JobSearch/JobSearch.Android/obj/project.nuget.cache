@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fDOWSofVkVdgEd0T40brjMrNJZ+S9MgjdcaiaZOaCEfQuz4EY4qoXbkOu24pq7qoc4NHoX0FOcpy++l64eiOKw==",
+  "dgSpecHash": "2VW3NQVEJVk/Q3R7JmfzkueHkUfxXg2gopI/pmolS5k/6xvKswioOUafNZdBB2ER/iuY19UNWCmdO27aN9pnaQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppJobSearch\\JobSearch\\JobSearch.Android\\JobSearch.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\neto_\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
+    "C:\\Users\\neto_\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\neto_\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\neto_\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\neto_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

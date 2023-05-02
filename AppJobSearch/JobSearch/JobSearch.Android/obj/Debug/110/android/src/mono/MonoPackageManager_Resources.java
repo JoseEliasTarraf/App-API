@@ -3,8 +3,12 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "JobSearch.Android.dll" comes first in this list. */
 		"JobSearch.Android.dll",
+		"DomainLib.dll",
 		"FormsViewGroup.dll",
 		"JobSearch.dll",
+		"Newtonsoft.Json.Bson.dll",
+		"Newtonsoft.Json.dll",
+		"System.Net.Http.Formatting.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

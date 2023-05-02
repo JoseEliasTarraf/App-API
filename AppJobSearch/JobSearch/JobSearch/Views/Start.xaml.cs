@@ -21,5 +21,10 @@ namespace JobSearch.Views
         {
             Navigation.PushAsync(new Detalhe());
         }
+
+        private void AddJobs(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AddJob());
+        }
     }
 }

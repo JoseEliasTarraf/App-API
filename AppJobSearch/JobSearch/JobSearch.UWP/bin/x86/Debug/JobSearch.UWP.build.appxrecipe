@@ -261,6 +261,36 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\back.scale-100.png">
+      <PackagePath>Images\back.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\back.scale-200.png">
+      <PackagePath>Images\back.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\logout.scale-100.png">
+      <PackagePath>Images\logout.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\logout.scale-200.png">
+      <PackagePath>Images\logout.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\ok.scale-100.png">
+      <PackagePath>Images\ok.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\ok.scale-200.png">
+      <PackagePath>Images\ok.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\pin.scale-100.png">
+      <PackagePath>Images\pin.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\pin.scale-200.png">
+      <PackagePath>Images\pin.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\search.scale-100.png">
+      <PackagePath>Images\search.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Images\search.scale-200.png">
+      <PackagePath>Images\search.scale-200.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Dev\AppJobSearch\JobSearch\JobSearch.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
